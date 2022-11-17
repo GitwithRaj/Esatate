@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Esatate/static/css/main.b37193a8.css",
+    "main.js": "/Esatate/static/js/main.6b472f12.js",
+    "static/js/787.d9505abf.chunk.js": "/Esatate/static/js/787.d9505abf.chunk.js",
+    "index.html": "/Esatate/index.html",
+    "main.b37193a8.css.map": "/Esatate/static/css/main.b37193a8.css.map",
+    "main.6b472f12.js.map": "/Esatate/static/js/main.6b472f12.js.map",
+    "787.d9505abf.chunk.js.map": "/Esatate/static/js/787.d9505abf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b37193a8.css",
+    "static/js/main.6b472f12.js"
+  ]
+}
