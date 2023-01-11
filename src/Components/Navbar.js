@@ -19,8 +19,7 @@ export default function Navbar() {
     const updateItem=Data.filter((cur)=>{
      
       return ( 
-        (var1===''? 1:var1===cur.price) && (var2===''? 1:var2===cur.city) && (var3===''? 1:var3===cur.desc)
-        )
+        (var1==='' || var1==='Price' ? 1:var1===cur.price) && (var2==='' || var2==='Location' ? 1:var2===cur.city) && (var3==='' || var3==='BHK'? 1:var3===cur.desc))
     })
     setItems(updateItem);
   }
