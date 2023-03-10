@@ -48,7 +48,7 @@ export default function Navbar() {
            }
           </select>
           <select className='sel' value={bhk} onChange={e=>setBhk(e.target.value)} >
-          <option value={''}>Bhk</option>
+          <option value={''}>BHK</option>
            { 
                Myarray.BHK.map((data,index)=>{
                 return(<option  key={index}>{data}</option>)
