@@ -19,7 +19,7 @@ export default function Navbar() {
     const updateItem=Data.filter((cur)=>{
      
       return ( 
-        (var1==='' || var1==='Price' ? 1:var1===cur.price) && (var2==='' || var2==='Location' ? 1:var2===cur.city) && (var3==='' || var3==='BHK'? 1:var3===cur.desc))
+        (var1==='Price' ? 1:var1===cur.price) && (var2==='Location' ? 1:var2===cur.city) && (var3==='BHK'? 1:var3===cur.desc))
     })
     setItems(updateItem);
   }
@@ -32,7 +32,7 @@ export default function Navbar() {
     <div className='Main-Container'>
     <div className='filter'>
           <select className='sel' value={price} onChange={e=>setPrice(e.target.value)}>
-          <option value={''}>Price</option>
+          <option value={'Price'}>Price</option>
            { 
                Myarray.Price.map((data,index)=>{
                 return(<option key={index}>{data}</option>)
@@ -40,7 +40,7 @@ export default function Navbar() {
            }
           </select>
           <select className='sel' value={loc} onChange={e=>setLoc(e.target.value)}>
-          <option value={''}>Location</option>
+          <option value={'Location'}>Location</option>
            { 
                Myarray.Location.map((data,index)=>{
                 return(<option key={index}>{data}</option>)
@@ -48,7 +48,7 @@ export default function Navbar() {
            }
           </select>
           <select className='sel' value={bhk} onChange={e=>setBhk(e.target.value)} >
-          <option value={''}>BHK</option>
+          <option value={'BHK'}>BHK</option>
            { 
                Myarray.BHK.map((data,index)=>{
                 return(<option  key={index}>{data}</option>)
