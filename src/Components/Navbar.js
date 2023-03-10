@@ -5,9 +5,9 @@ import './Card.css';
 export default function Navbar() {
   const [items, setItems] = useState(Data);
   const Myarray={
-     Price:['Price','2000','3000','4000'],
-    Location:['Location','NewYork','Boston','San Francisco'],
-    BHK:['BHK',1BHK','2BHK','3BHK','4BHK']
+     Price:['2000','3000','4000'],
+    Location:['NewYork','Boston','San Francisco'],
+    BHK:[1BHK','2BHK','3BHK','4BHK']
   }
 
   const [price,setPrice]=useState('');
@@ -48,7 +48,7 @@ export default function Navbar() {
            }
           </select>
           <select className='sel' value={bhk} onChange={e=>setBhk(e.target.value)} >
-          <option value={''}>BHK</option>
+          <option value={''}>Bhk</option>
            { 
                Myarray.BHK.map((data,index)=>{
                 return(<option  key={index}>{data}</option>)
