@@ -31,7 +31,7 @@ export default function HomeCard() {
                 <h6> {city}</h6>
                <hr></hr>
                 <p>{desc}</p>
-               {/* < span><a id='rent' href="#" className="btn btn-primary">Rent</a></span> */}
+              
               </div>
             </div>
           )
