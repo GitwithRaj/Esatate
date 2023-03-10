@@ -5,7 +5,7 @@ import './Card.css';
 export default function Navbar() {
   const [items, setItems] = useState(Data);
   const Myarray={
-     Price:['2000','3000','4000','8000'],
+     Price:['2000','3000','4000'],
     Location:['NewYork','Boston','San Francisco'],
     BHK:[1BHK','2BHK','3BHK','4BHK']
   }
