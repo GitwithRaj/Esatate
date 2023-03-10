@@ -31,7 +31,7 @@ export default function Navbar() {
     </div>
     <div className='Main-Container'>
     <div className='filter'>
-          <select className='sel' value={price} onChange={e=>setPrice(e.target.value)}>
+          <select className='sel' value={Price} onChange={e=>setPrice(e.target.value)}>
           <option value={''}>Price</option>
            { 
                Myarray.Price.map((data,index)=>{
@@ -39,7 +39,7 @@ export default function Navbar() {
                })
            }
           </select>
-          <select className='sel' value={loc} onChange={e=>setLoc(e.target.value)}>
+          <select className='sel' value={Location} onChange={e=>setLoc(e.target.value)}>
           <option value={''}>Location</option>
            { 
                Myarray.Location.map((data,index)=>{
