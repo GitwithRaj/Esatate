@@ -3,33 +3,33 @@
       id:1,
     imgg:"./images/img1.jpg",
       category:"Home",
-      price:"4000",
+      price:'4000',
       city:'NewYork',
-      desc:"2BHK" 
+      desc:'2BHK' 
     },
     {
         id:2,
         imgg:"./images/img2.jpg",
         category:"Palm Harbor",
-        price:"2000",
+        price:'2000',
         city:'San Francisco',
-        desc:"3BHK" 
+        desc:'3BHK' 
       },
     {
         id:3,
         imgg:"./images/img9.jpg",
         category:"Beverly SpringField",
-        price:"2000",
+        price:'2000',
         city:'Boston',
-        desc:"4BHK" 
+        desc:'4BHK' 
       },
     {
         id:4,
         imgg:"./images/img3.jpg",
         category:"Faulnker Ave",
-        price:"3000",
+        price:'3000',
         city:'San Francisco',
-        desc:"2BHK" 
+        desc:'BHK'
       },
      {
         id:5,
@@ -37,7 +37,7 @@
         category:"Nye Jhopadi",
         price:"4000",
         city:'San Francisco',
-        desc:"4BHK" 
+        desc:'4BHK'
       },
     {
         id:6,
