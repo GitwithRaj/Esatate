@@ -32,7 +32,7 @@ export default function Navbar() {
     <div className='Main-Container'>
     <div className='filter'>
           <select className='sel' value={price} onChange={e=>setPrice(e.target.value)}>
-          <option >Price</option>
+          <option value={''}>Price</option>
            { 
                Myarray.Price.map((data,index)=>{
                 return(<option key={index}>{data}</option>)
@@ -48,7 +48,7 @@ export default function Navbar() {
            }
           </select>
           <select className='sel' value={bhk} onChange={e=>setBhk(e.target.value)} >
-          <option>BHK</option>
+          <option value={''}>BHK</option>
            { 
                Myarray.BHK.map((data,index)=>{
                 return(<option  key={index}>{data}</option>)
